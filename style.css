@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to right, black, grey, black);
+  color: aliceblue;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 150%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.box1,
+.box2 {
+  width: 300px;
+  height: 150px;
+  display: flexbox;
+  gap: 50px;
+  background: radial-gradient(
+    circle at center,
+    rgb(139, 138, 138),
+    rgb(46, 36, 36)
+  );
+  outline: 2px solid white;
+  position: relative;
+  transform: translateY(40%) translateX(-80%);
+  border-radius: 1rem;
+  box-shadow: 10px 10px 8px #e0cece;
+}
+
+.box2 {
+  position: relative;
+  transform: translateY(170%) translateX(-180%);
+}
+
+#weightBox1,
+#weightBox2 {
+  width: 50%;
+  height: 12%;
+  background-color: white;
+  border: 2px rgb(107, 49, 49) solid;
+  font-size: 15px;
+  border-radius: 5px;
+  transform: translateX(20%) translateY(-5%);
+}
+
+#convertButton {
+  border: #f0d74e 2px solid;
+  border-radius: 1rem;
+  font-size: 15px;
+  transform: translateY(-120%) translateX(290%);
+}
+
+#displaybox1 {
+  position: relative;
+  width: 20%;
+  border-radius: 1rem;
+  transform: translateX(270%) translateY(-100%);
+}
+
+h3 {
+  transform: translateX(10%);
+  color: #f0d74e;
+}
+
+h4 {
+  transform: translateY(-350%) translateX(5%);
+}
+
+h2 {
+  color: #ffffff;
+  font-style: oblique;
+  text-decoration: rgb(150, 202, 102) double underline;
+}
